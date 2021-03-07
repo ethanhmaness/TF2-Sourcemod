@@ -1,0 +1,36 @@
+"Malthus's Multi-Purpose Membrane"
+{
+	"classes"
+	{
+		"sniper"	"1"
+	}
+	"baseclass"		"wearable"
+	"baseindex"		"231"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"malthus_shield"
+	"description"	"15% resistance to non-fire damage on wearer"
+	"cw3_attributes"
+	{
+		"afterburn immunity"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"dmg taken increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.85"
+		}
+		"dmg taken from fire increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2.353"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

@@ -1,0 +1,66 @@
+"The Live Tapper"
+{
+	"classes"
+	{
+		"spy"		"4"
+	}
+	"baseclass"		"invis"
+	"baseindex"		"59"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"live_tapper"
+	"description"	"Reduced decloak sound volume \n \nCloak meter is set to 50% when decloaking \n \nOn Cloak: You are Marked-For-Death for 3 seconds \n-40% cloak duration \n-33% cloak regen rate \nCloak does not shorten debuff durations"
+	"attributes"
+	{
+		"uncloak set"
+		{
+			"plugin"	"the655"
+			"value"		"50"
+		}
+		"mult cloak meter regen rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.666"
+		}
+		"cloak consume rate decreased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.4"
+		}
+		"addcond while cloaked"
+		{
+			"plugin"	"zethax-attributes"
+			"value"		"48 48 1 3"
+		}
+		"SET BONUS: quiet unstealth"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"cloak debuff time scale"
+		{
+			"plugin"	"custom-attribute-adapter\cloak_debuff_time_scale"
+			"value"		"1.0"
+		}
+		"mod_cloak_no_regen_from_items"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"cloak_consume_on_feign_death_activate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"set cloak is feign death"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

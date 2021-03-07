@@ -1,0 +1,41 @@
+"The Glass Beast"
+{
+	"classes"
+	{
+		"heavy"		"0"
+	}
+	"baseclass"		"minigun"
+	"baseindex"		"312"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"glassbeast"
+	"description"	"+33% faster spin up time \n+60% faster move speed while deployed \n \n-15% damage penalty \n+25% damage vulnerability when below 50% health and spun up"
+	"attributes"
+	{
+		"damage penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.708"
+		}
+		"minigun spinup time decreased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.447"
+		}
+		"aiming movespeed increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"4"
+		}
+		"spunup_damage_resistance"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.25"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

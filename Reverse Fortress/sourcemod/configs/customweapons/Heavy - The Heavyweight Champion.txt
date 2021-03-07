@@ -1,0 +1,46 @@
+"The Heavyweight Champion"
+{
+	"classes"
+	{
+		"heavy"		"2"
+	}
+	"baseclass"		"fists"
+	"baseindex"		"331"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"heavyweight_champ"
+	"description"	"While Active: \n \n-50% damage from melee sources while active \n+50% maximum overheal on wearer \n+50% health from healers on wearer \nThis weapon holsters 50% faster \n \n+67% damage from ranged sources"
+	"attributes"
+	{
+		"dmg from melee increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.25"
+		}
+		"dmg from ranged reduced"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2.78"
+		}
+		"switch from wep deploy time decreased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.25"
+		}
+		"mult_patient_overheal_penalty_active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2.5"
+		}
+		"mult_health_fromhealers_penalty_active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2.5"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

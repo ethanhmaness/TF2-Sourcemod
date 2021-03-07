@@ -1,0 +1,41 @@
+"The Overclocker"
+{
+	"classes"
+	{
+		"engineer"		"1"
+	}
+	"baseclass"		"buff_item"
+	"baseindex"		"140"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"overclocker"
+	"description"	"While Active: \n+33% sentry firing speed \n+50% sentry range \n+400% dispenser range"
+	"cw3_attributes"
+	{
+		"provide on active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"engy sentry fire rate increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.67"
+		}
+		"engy sentry radius increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.5"
+		}
+		"engy dispenser radius increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"5"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

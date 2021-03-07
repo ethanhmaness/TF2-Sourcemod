@@ -1,0 +1,58 @@
+"The Flying Gurney"
+{
+	"classes"
+	{
+		"scout"		"1"
+	}
+	"baseclass"		"pistol"
+	"baseindex"		"812"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"flying_gurney"
+	"mag"			"1"
+	"ammo"			"0"
+	"description"	"Throw at your teammates to heal them"
+	"attributes"
+	{
+		"override projectile type"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"5"
+		}
+		"mod syringes heal teammates"
+		{
+			"plugin"	"custom-attribute-adapter\projectile_heal_on_teammate_contact"
+			"value"		"amount=50 overheal_max=0.5"
+		}
+		"full clip refill after time"
+		{
+			"plugin"	"custom-attribute-adapter\full_clip_refill_after_time"
+			"value"		"6"
+		}
+		"clip size penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.08"
+		}
+		"hidden secondary max ammo penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.0"
+		}
+		"Projectile speed increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2"
+		}
+		"allowed in medieval mode"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+"The Überabwehr"
+{
+	"classes"
+	{
+		"medic"		"1"
+	}
+	"baseclass"		"medigun"
+	"baseindex"		"35"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"uberabwehr"
+	"description"	"Übercharge creates a projectile-blocking energy shield \n \n-20% Übercharge rate"
+	"attributes"
+	{
+		"uber shield"
+		{
+			"plugin"	"the655"
+			"value"		"1"
+		}
+		"ubercharge rate penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.64"
+		}
+		"medigun charge is crit boost"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"-1"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

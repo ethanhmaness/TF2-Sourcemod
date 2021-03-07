@@ -1,0 +1,52 @@
+"The Protein Shaker"
+{
+	"classes"
+	{
+		"scout"		"0"
+	}
+	"baseclass"		"soda_popper"
+	"baseindex"		"448"
+	"nobots"		"0"
+	"quality"		"6"
+	"mag"			"12"
+	"logname"		"protein_shaker"
+	"description"	"+100% clip size \nOn Damage Taken: Builds Hype \n \n50% slower firing speed \n75% slower reload time \n \nNOTE: Due to a bug the meter UI is only visible if you have the Soda Popper equipped"
+	"cw3_attributes"
+	{
+		"lose hype on take damage"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"-1"
+		}
+		"fire rate penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"3"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"6"
+		}
+		"scattergun no reload single"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"Reload time increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2.33"
+		}
+		"hype on damage"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

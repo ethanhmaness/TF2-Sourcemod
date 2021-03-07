@@ -1,0 +1,31 @@
+"The Aircraft Carrier"
+{
+	"classes"
+	{
+		"soldier"	"1"
+	}
+	"baseclass"		"wearable"
+	"baseindex"		"133"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"aircraft_carrier"
+	"description"	"Wearer never takes falling damage"
+	"attributes"
+	{
+		"cancel falling damage"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"rocket jump damage reduction"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

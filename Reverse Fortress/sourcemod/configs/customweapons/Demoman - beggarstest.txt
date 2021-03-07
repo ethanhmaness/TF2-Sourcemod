@@ -1,0 +1,62 @@
+"test"
+{
+	"classes"
+	{
+		"demoman"		"1"
+	}
+	"baseclass"		"pipebomblauncher"
+	"baseindex"		"20"
+	"nobots"		"0"
+	"quality"		"6"
+	"mag"			"0"
+	"logname"		"beggarsticky"
+	"description"	""
+	"attributes"
+	{
+		"stickybomb charge rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"auto fires full clip"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"fire rate bonus HIDDEN"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.3"
+		}
+		"reload time increased hidden"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.3"
+		}
+		"clip size penalty HIDDEN"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.75"
+		}
+		"projectile spread angle penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"3"
+		}
+		"no primary ammo from dispensers while active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"blast radius decreased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.8"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

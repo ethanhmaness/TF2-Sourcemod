@@ -1,0 +1,41 @@
+"The Yyvorodz Bar (broken)"
+{
+	"classes"
+	{
+		"heavy"			"1"
+	}
+	"baseclass"		"lunchbox"
+	"baseindex"		"159"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"yyvorodz_bar"
+	"description"	"Inner Vitality: Alt-fire to gain constant health regen for 30 seconds \n \n-50 max health on wearer \n100% longer recharge"
+	"attributes"
+	{
+		"taunt cond"
+		{
+			"plugin"	"the655"
+			"value"		"73 0.1"
+		}
+		"max health additive penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"-50"
+		}
+		"lunchbox adds minicrits"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"item_meter_charge_rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"60"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

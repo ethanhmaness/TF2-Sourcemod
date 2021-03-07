@@ -1,0 +1,36 @@
+"The Rib Eye Resistor (broken)"
+{
+	"classes"
+	{
+		"heavy"			"1"
+	}
+	"baseclass"		"lunchbox"
+	"baseindex"		"311"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"ribeye_resistor"
+	"description"	"After consuming, damage resistance is increased by 35% (50% to sentries) and the user is immune to crits."
+	"attributes"
+	{
+		"lunchbox adds minicrits"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"taunt cond"
+		{
+			"plugin"	"the655"
+			"value"		"26 10"
+		}
+		"lunchbox healing decreased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

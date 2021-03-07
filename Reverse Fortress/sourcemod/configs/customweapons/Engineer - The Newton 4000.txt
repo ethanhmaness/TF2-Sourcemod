@@ -1,0 +1,36 @@
+"The Newton 4000"
+{
+	"classes"
+	{
+		"engineer"			"0"
+	}
+	"baseclass"		"drg_pomson"
+	"baseindex"		"588"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"newton_4000"
+	"description"	"Deals 180% damage to enemy buildings \n \nOn Hit: You lose 15 metal"
+	"cw3_attributes"
+	{
+		"dmg bonus vs buildings"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"9"
+		}
+		"metal on hit"
+		{
+			"plugin"	"orion"
+			"value"		"-15"
+		}
+		"energy weapon no hurt building"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

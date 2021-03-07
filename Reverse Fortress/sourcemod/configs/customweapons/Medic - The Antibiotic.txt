@@ -1,0 +1,91 @@
+"The Antibiotic"
+{
+	"classes"
+	{
+		"medic"		"1"
+	}
+	"baseclass"		"medigun"
+	"baseindex"		"998"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"antibiotic"
+	"description"	"+66% overheal build rate \n+33% ubercharge rate on overhealed patients \n \n-40% ubercharge rate \n+10% damage vulnerability while active \n \nUbercharge grants 100% critical chance"
+	"attributes"
+	{
+		"provide on active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"dmg taken increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.1"
+		}
+		"ubercharge overheal rate penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.985"
+		}
+		"overheal fill rate reduced"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"4.882"
+		}
+		"ubercharge rate penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.359"
+		}
+		"medigun charge is resists"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"medigun charge is crit boost"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"lunchbox adds minicrits"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"medigun bullet resist passive"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"medigun bullet resist deployed"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"medigun fire resist passive"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"medigun fire resist deployed"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"medigun blast resist passive"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"medigun blast resist deployed"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

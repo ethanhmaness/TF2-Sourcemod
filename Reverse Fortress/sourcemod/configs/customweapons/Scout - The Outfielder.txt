@@ -1,0 +1,57 @@
+"The Outfielder"
+{
+	"classes"
+	{
+		"scout"		"0"
+	}
+	"baseclass"		"handgun_scout_primary"
+	"baseindex"		"220"
+	"nobots"		"0"
+	"quality"		"6"
+	"mag"			"8"
+	"logname"		"outfielder"
+	"description"	"+150% bullets per shot \n+33% clip size \n20% decrease in push force taken from damage and airblast \n \n-35% damage penalty \n30% less accurate \n25% slower firing speed"
+	"attributes"
+	{
+		"bullets per shot bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"6.25"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2"
+		}
+		"damage force reduction"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.8"
+		}
+		"airblast vulnerability multiplier"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.8"
+		}
+		"damage penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.325"
+		}
+		"spread penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2.17"
+		}
+		"fire rate penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2.17"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

@@ -1,0 +1,49 @@
+"The Boar Brawn"
+{
+	"classes"
+	{
+		"sniper"	"1"
+	}
+	"baseclass"		"wearable"
+	"baseindex"		"133"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"boar_brawn"
+	"description"	"+50% more healing from Medic sources \n+15% damage resistance from ranged sources"
+	"attributes"
+	{
+		"dmg taken from fire reduced"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.85"
+		}
+		"dmg taken from bullets reduced"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.85"
+		}
+		"dmg taken from blast reduced"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.85"
+		}
+		"reduced_healing_from_medics"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.5"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+	"viewmodel"
+	{
+		"modelname"		"models/player/items/sniper/knife_shield.mdl"
+	}
+	"worldmodel"
+	{
+		"modelname"		"models/player/items/sniper/knife_shield.mdl"
+	}
+}

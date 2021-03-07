@@ -1,0 +1,36 @@
+"The First Radian"
+{
+	"classes"
+	{
+		"pyro"		"2"
+	}
+	"baseclass"		"fireaxe"
+	"baseindex"		"593"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"first_radian"
+	"description"	"Damage increases as enemy's missing health increases"
+	"cw3_attributes"
+	{
+		"missing enemy hp to dmg"
+		{
+			"plugin"	"orion"
+			"value"		"0.5"
+		}
+		"damage penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.615"
+		}
+		"damage all connected"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+"The Tank Battery"
+{
+	"classes"
+	{
+		"pyro"		"2"
+	}
+	"baseclass"		"fireaxe"
+	"baseindex"		"214"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"tankbattery"
+	"description"	"While active: \n \n+25% damage resistance on wearer \n-15% movement speed on wearer"
+	"attributes"
+	{
+		"heal on kill"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"mult_player_movespeed_active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.739"
+		}
+		"dmg taken increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.75"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

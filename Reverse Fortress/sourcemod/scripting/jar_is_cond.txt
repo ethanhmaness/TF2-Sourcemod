@@ -1,0 +1,84 @@
+#pragma semicolon 1
+#include <sourcemod>
+
+#include <sdkhooks>
+#include <sdktools>
+#include <stocksoup/entity_prefabs>
+#include <stocksoup/entity_tools>
+#include <stocksoup/tf/econ>
+#include <stocksoup/tf/tempents_stocks>
+#include <stocksoup/var_strings>
+
+#include <dhooks>
+#include <tf2_stocks>
+#include <tf_custom_attributes>
+
+#pragma newdecls required
+
+#include <tf2wearables>
+
+public void OnPluginStart() {
+	Handle hGameConf = LoadGameConfigFile("tf2.cattr_starterpack");
+	if (!hGameConf) {
+		SetFailState("Failed to load gamedata (tf2.cattr_starterpack).");
+	}
+	
+	Handle dtJarExplode = DHookCreateFromConf(hGameConf, "JarExplode()");
+	DHookEnableDetour(dtJarExplode, false, OnJarExplodePre);
+	DHookEnableDetour(dtJarExplode, true, OnJarExplodePost);
+	
+	delete hGameConf;
+	
+	HookUserMessage(GetUserMessageId("PlayerJarated"), OnPlayerJarated);
+}
+
+static int s_iJarWeapon;
+public MRESReturn OnJarExplodePre(Handle hParams) {
+	s_iJarWeapon = INVALID_ENT_REFERENCE;
+	
+	int originalLauncher = DHookGetParam(hParams, 3);
+	
+	char attr[128];
+	if (!TF2CustAttr_GetString(originalLauncher, "jar is cond",
+			attr, sizeof(attr))) {
+		return MRES_Ignored;
+	}
+	
+	s_iJarWeapon = EntIndexToEntRef(originalLauncher);
+	
+	// zero out duration so we don't have to remove the condition ourselves
+	// (removing the condition for TF_COND_URINE starts a new usermessage)
+	DHookSetParam(hParams, 9, 0.0);
+	
+	return MRES_ChangedHandled;
+}
+
+public MRESReturn OnJarExplodePost(Handle hParams) {
+	s_iJarWeapon = INVALID_ENT_REFERENCE;
+	return MRES_Ignored;
+}
+
+// this handles mad milk
+public Action OnPlayerJarated(UserMsg msg_id, BfRead msg, const int[] players, int playersNum,
+		bool reliable, bool init) {
+	if (!IsValidEntity(s_iJarWeapon)) {
+		return Plugin_Continue;
+	}
+	
+	int client = msg.ReadByte();
+	int victim = msg.ReadByte();
+	
+	char attr[128];
+	if (!TF2CustAttr_GetString(s_iJarWeapon, "jar is cond",
+			attr, sizeof(attr))) {
+		return Plugin_Continue;
+	}
+	
+	TFCond condition = view_as<TFCond>(ReadIntVar(attr, "condition"));
+	float duration = ReadFloatVar(attr, "duration");
+	
+	TF2_AddCondition(victim, condition, duration);
+	
+	return Plugin_Continue;
+	#pragma unused client
+}

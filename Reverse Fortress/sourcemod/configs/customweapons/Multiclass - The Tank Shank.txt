@@ -1,0 +1,32 @@
+"The Tank Shank"
+{
+	"classes"
+	{
+		"soldier"		"2"
+		"demoman"		"2"
+	}
+	"baseclass"		"shovel"
+	"baseindex"		"154"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"tank_shank"
+	"description"	"10% bullet damage resistance on wearer \n \n-1 capture rate on wearer"
+	"attributes"
+	{
+		"increase player capture value"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"-1"
+		}
+		"dmg taken from bullets increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.818"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+"The Blutfluch"
+{
+	"classes"
+	{
+		"medic"		"0"
+	}
+	"baseclass"		"syringegun_medic"
+	"baseindex"		"36"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"blutfluch"
+	"description"	"+2 health regenerated per second on wearer \n \nOn Hit: 30% of damage is dealt to self"
+	"cw3_attributes"
+	{
+		"dmg done is selfhurt"
+		{
+			"plugin"	"orion"
+			"value"		"0.3"
+		}
+		"health regen"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"4"
+		}
+		"heal on hit for rapidfire"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

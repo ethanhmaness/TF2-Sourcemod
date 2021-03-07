@@ -1,0 +1,31 @@
+"The Donk! Jumbo Juice"
+{
+	"classes"
+	{
+		"scout"		"1"
+	}
+	"baseclass"		"lunchbox_drink"
+	"baseindex"		"46"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"donk_drink"
+	"description"	"Drink to become Marked-for-Death. \nGain an 8 second speed boost when the effect ends."
+	"attributes"
+	{
+		"custom lunchbox effect"
+		{
+			"plugin"	"custom-attribute-adapter\custom_lunchbox_effect"
+			"value"		"marked boost effect"
+		}
+		"marked boost effect drink properties"
+		{
+			"plugin"	"custom-attribute-adapter"
+			"value"		"mark_duration=5.0 speed_duration=8.0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

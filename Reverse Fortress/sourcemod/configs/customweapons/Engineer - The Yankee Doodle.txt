@@ -1,0 +1,36 @@
+"The Yankee Doodle"
+{
+	"classes"
+	{
+		"engineer"		"2"
+	}
+	"baseclass"		"wrench"
+	"baseindex"		"155"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"yankee_doodle"
+	"description"	"20% fire damage resistance on wearer \n \nOn Miss: Bleed for 3 seconds."
+	"cw3_attributes"
+	{
+		"hotsauce yourself on miss"
+		{
+			"plugin"	"moreaw2"
+			"value"		"3 3"
+		}
+		"dmg taken from fire reduced"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.67"
+		}
+		"bleeding duration"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

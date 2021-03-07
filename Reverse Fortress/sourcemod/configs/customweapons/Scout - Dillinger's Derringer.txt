@@ -1,0 +1,37 @@
+"Dillinger's Derringer"
+{
+	"classes"
+	{
+		"scout"		"1"
+	}
+	"baseclass"		"handgun_scout_secondary"
+	"baseindex"		"773"
+	"nobots"		"0"
+	"mag"			"16"
+	"quality"		"6"
+	"logname"		"dillingers_derringer"
+	"description"	"+33% clip size \n \nOn Hit: Take 10% of damage dealt (rounded down) \n-10% firing speed"
+	"cw3_attributes"
+	{
+		"dmg done is selfhurt"
+		{
+			"plugin"	"orion"
+			"value"		"0.1"
+		}
+		"fire rate penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.294"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.769"
+		}
+		"heal on hit for rapidfire"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+	}
+}

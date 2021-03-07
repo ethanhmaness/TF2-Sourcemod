@@ -1,0 +1,36 @@
+"The Pacebreaker"
+{
+	"classes"
+	{
+		"medic"		"2"
+	}
+	"baseclass"		"bonesaw"
+	"baseindex"		"173"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"Pacebreaker"
+	"description"	"On Kill: Collect enemy's heart \nHearts increase ubercharge rate by 25%, up to a maximum of +100% \n \n-10 max health on wearer"
+	"attributes"
+	{
+		"kills increase ubercharge rate"
+		{
+			"plugin"	"zethax-attributes"
+			"value"		"0.25 4 0"
+		}
+		"ubercharge_preserved_on_spawn_max"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"lunchbox adds minicrits"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

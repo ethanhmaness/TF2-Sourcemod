@@ -1,0 +1,143 @@
+nosoop attribute-dependent ideas
+-----------------------
+
+put "weapon always gibs on kill" on energy weapons
+
+maybe use "crossbow addcond on teammate hit" with crusader's crossbow (also give it normal falloff)
+
+-----------------------
+
+TODO:
+- Add ammo and mag tags to ALL weapons to fix resupply ammo bug
+- Add inverted weapon color and particle
+- Behind damage modifier
+- Health on kill
+- Addcond on kill
+- Addcond on hurt
+- Shooting apply self velocity
+- Alt-fire addconds
+- Alt-fire refill clip
+- Alt-fire apply self velocity
+
+Shortstop:
+	Alt-Fire: Lunge backwards
+	
+Force-A-Nature:
+	Pulls you forward
+
+Back Scatter:
+	+20% accuracy
+	+34% clip size
+	+35% damage taken from behind
+	
+Candy Cane:
+	+20% explosion damage resistance on wearer
+	On Kill: -15 health
+	
+Candy Cane (alternate):
+	On Death: Explode
+	-25% less health from health packs
+	
+Cow Mangler 5000:
+	Alt-Fire: Refills clip, gives 4 seconds of speed, burning, and Mark-For-Death
+	+20% damage vs buildings
+	
+	Half reserve ammo
+	
+Market Gardener:
+	-67% damage vs airborne players
+	+15% swing speed
+	
+Backburner:
+	Take triple damage from behind
+	Airblasts give 10 ammo
+
+Scorch Shot:
+	100% critical hits vs burning players
+	+50% damage bonus
+	+50% self damage force
+	Flares pull target
+	Does not ignite enemies
+	
+Manmelter:
+	alt-fire ignites yourself but grants damage resist
+	
+Gas Passer:
+	Burn until hit? (ignite, then afterburn resist on take dmg)
+	
+Third Degree:
+	It can't damage medics
+	
+Axtinguisher:
+	+33% damage
+	+35% holster speed
+	Ignites enemy
+	
+	-50% damage vs burning
+	On Kill: Slow for 3 seconds
+	
+Ali Baba's Wee Booties:
+	nearby enemies move slower and have damage vuln
+	increased air control
+	25% of damage taken fills charge meter
+	
+Splendid Screen:
+	bullet resistance
+	charge is longer
+	less bash damage
+	
+Half-Zatoichi:
+	+50% max health while active
+	On Kill: -50 health
+	
+Ullapool Caber:
+	+20% swing speed
+	+50% deploy speed
+	First hit applies megaheal burst
+	
+Eyelander:
+	+25 max health
+	Decrease speed and health with every non-melee kill
+	
+Huo-Long Heater:
+	+15% damage
+	-25% damage vs burning
+	Burn while revved up (can't addcond)
+
+Warrior's Spirit:
+	While Active:
+	+30% damage resistance
+	-30% damage
+	-50 health on kill
+	
+Killing Gloves of Boxing:
+	+20% firing speed
+	On Kill: Marked for Death for 5 seconds
+	
+Holiday Punch:
+	While Active:
+	Double crit damage
+	Take crits from behind
+	Crits make you laugh
+	Hitting an enemy with this item makes you laugh
+	
+Vita-Saw:
+	+10 max health
+	You spawn with -30% ubercharge
+	
+Hitman's Heatmaker:
+	+20% damage on bodyshot
+	Some sort of charge rate penalty on kill
+	
+Razorback:
+	some sort of more medic healing thing
+	+50% damage taken from behind
+	
+Bushwacka:
+	While Active:
+	+20% damage resistance
+	Mini-crit instead of crit
+	
+Spy-Cicle:
+	Take more fire damage
+	Some sort of bonus while burning

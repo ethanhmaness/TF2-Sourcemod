@@ -1,0 +1,42 @@
+"The Dinger"
+{
+	"classes"
+	{
+		"scout"		"1"
+	}
+	"baseclass"		"handgun_scout_secondary"
+	"baseindex"		"449"
+	"nobots"		"0"
+	"mag"			"30"
+	"quality"		"6"
+	"logname"		"dinger"
+	"description"	"+150% clip size\n \n-15% damage penalty \n-20% jump height while active"
+	"attributes"
+	{
+		"provide on active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.0"
+		}
+		"increased jump height from weapon"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.8"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"6.25"
+		}
+		"damage penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.739"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

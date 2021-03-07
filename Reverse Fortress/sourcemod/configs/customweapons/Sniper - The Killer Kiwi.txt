@@ -1,0 +1,51 @@
+"The Killer Kiwi"
+{
+	"classes"
+	{
+		"sniper"			"0"
+	}
+	"baseclass"		"sniperrifle"
+	"baseindex"		"230"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"killer_kiwi"
+	"description"	"+50% headshot damage \n \nOn Hit: Grant the enemy mini-crits for 2 to 5 seconds \n-20% charge rate"
+	"cw3_attributes"
+	{
+		"headshot damage increase"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.5"
+		}
+		"damage to cond"
+		{
+			"plugin"	"trbz-attributes"
+			"value"		"16 0.5 0.03"
+		}
+		"sniper charge per sec"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.64"
+		}
+		"sniper no headshots"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"jarate duration"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"crit mod disabled"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

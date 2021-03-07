@@ -1,0 +1,54 @@
+"The Focus Fire"
+{
+	"classes"
+	{
+		"soldier"		"1"
+		"pyro"			"1"
+		"engineer"		"0"
+		"heavy"			"1"
+	}
+	"baseclass"		"shotgun"
+	"baseindex"		"1153"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"focus_fire"
+	"description"	"+25% damage bonus \n+50% more accurate \n \n-30% bullets per shot \nThis weapon deploys 100% slower \n"
+	"attributes"
+	{
+		"damage bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.5625"
+		}
+		"single wep deploy time increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"4"
+		}
+		"weapon spread bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.5"
+		}
+		"bullets per shot bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.7"
+		}
+		"mult_spread_scales_consecutive"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"fixed_shot_pattern"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

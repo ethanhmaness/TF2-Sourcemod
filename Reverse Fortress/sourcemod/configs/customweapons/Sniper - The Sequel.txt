@@ -1,0 +1,56 @@
+"The Sequel"
+{
+	"classes"
+	{
+		"sniper"			"0"
+	}
+	"baseclass"		"sniperrifle"
+	"baseindex"		"1098"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"sequel"
+	"description"	"+10% damage on bodyshot \n \nCannot fire unless zoomed"
+	"attributes"
+	{
+		"damage penalty on bodyshot"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.1"
+		}
+		"sniper only fire zoomed"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"crit on hard hit"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"sniper no headshot without full charge"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"sniper crit no scope"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"sniper fires tracer HIDDEN"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"lunchbox adds minicrits"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

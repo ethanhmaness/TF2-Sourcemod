@@ -1,0 +1,77 @@
+"The Bourgeoisie Bomber"
+{
+	"classes"
+	{
+		"soldier"		"0"
+	}
+	"baseclass"		"rocketlauncher"
+	"baseindex"		"730"
+	"nobots"		"0"
+	"quality"		"6"
+	"mag"			"5"
+	"logname"		"bourgeoisie_bomber"
+	"description"	"+25% explosion radius \n+25% clip size \n+30% reload speed \nOn direct hits: rocket does maximum damage, stuns target, and blast radius increased +60% \n \n-30% firing speed"
+	"cw3_attributes"
+	{
+		"provide on active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"rocket specialist"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"4"
+		}
+		"Projectile speed increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.625"
+		}
+		"Blast radius increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.563"
+		}
+		"fire rate penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"4.333"
+		}
+		"Reload time increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.538"
+		}
+		"clip size penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.67"
+		}
+		"auto fires full clip"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"can overload"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"projectile spread angle penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"no primary ammo from dispensers while active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

@@ -1,0 +1,37 @@
+"The Bad Box"
+{
+	"classes"
+	{
+		"soldier"		"0"
+	}
+	"baseclass"		"rocketlauncher"
+	"baseindex"		"1085"
+	"nobots"		"0"
+	"quality"		"6"
+	"mag"			"5"
+	"logname"		"bad_box"
+	"description"	"+25% clip size \n \nTake 15% of damage dealt"
+	"cw3_attributes"
+	{
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.667"
+		}
+		"dmg done is selfhurt"
+		{
+			"plugin"	"orion"
+			"value"		"0.15"
+		}
+		"health on radius damage"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

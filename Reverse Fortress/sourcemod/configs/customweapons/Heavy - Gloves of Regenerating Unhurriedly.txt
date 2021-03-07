@@ -1,0 +1,46 @@
+"The Gloves of Regenerating Unhurriedly"
+{
+	"classes"
+	{
+		"heavy"		"2"
+	}
+	"baseclass"		"fists"
+	"baseindex"		"239"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"gloves_of_regen"
+	"description"	"While Active: \n \nUp to +12 health regenerated per second on wearer \nThis weapon holsters 33% faster \n \n-25% slower move speed on wearer"
+	"attributes"
+	{
+		"provide on active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"single wep holster time increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.67"
+		}
+		"health regen"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"12"
+		}
+		"mult_player_movespeed_active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.75"
+		}
+		"mod_maxhealth_drain_rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

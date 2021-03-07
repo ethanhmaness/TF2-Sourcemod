@@ -1,0 +1,51 @@
+"The Natalia"
+{
+	"classes"
+	{
+		"heavy"		"0"
+	}
+	"baseclass"		"minigun"
+	"baseindex"		"41"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"natalia"
+	"description"	"While Active: \n \n+20% damage bonus \n25% faster spin up time \n \nOn Hit: Apply speed boost to target \n+25% damage vulnerability when below 50% health and spun up"
+	"cw3_attributes"
+	{
+		"damage to cond"
+		{
+			"plugin"	"trbz-attributes"
+			"value"		"32 1 0"
+		}
+		"damage bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.6"
+		}
+		"minigun spinup time decreased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.577"
+		}
+		"slow enemy on hit"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"lunchbox adds minicrits"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"spunup_damage_resistance"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.25"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

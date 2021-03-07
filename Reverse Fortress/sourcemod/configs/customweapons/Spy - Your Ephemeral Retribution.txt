@@ -1,0 +1,61 @@
+"Your Ephemeral Retribution"
+{
+	"classes"
+	{
+		"spy"		"2"
+	}
+	"baseclass"		"knife"
+	"baseindex"		"225"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"ephemeral_retribution"
+	"description"	"-25% cloak drain rate \nUpon a successful backstab, you instantly cloak and keep your current disguise \n \nBackstab turns victim to ice"
+	"cw3_attributes"
+	{
+		"mult cloak meter consume rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.75"
+		}
+		"keep disguise on backstab"
+		{
+			"plugin"	"aw2attrib"
+			"value"		"1"
+		}
+		"fastcloak on backstab"
+		{
+			"plugin"	"aw2attrib"
+			"value"		"1"
+		}
+		"freeze backstab victim"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"lunchbox adds minicrits"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"silent killer"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"mod_disguise_consumes_cloak"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"disguise on backstab"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

@@ -1,0 +1,43 @@
+"The Trashman's Tommy"
+{
+	"classes"
+	{
+		"sniper"		"1"
+	}
+	"baseclass"		"smg"
+	"baseindex"		"751"
+	"nobots"		"0"
+	"quality"		"6"
+	"mag"			"35"
+	"ammo"			"75"
+	"logname"		"trashmans_tommy"
+	"description"	"While Active: \n \n+25% firing speed \n+40% clip size \n \n+35% damage vulnerability on wearer"
+	"attributes"
+	{
+		"provide on active"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"fire rate bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.6"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.75"
+		}
+		"dmg taken increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.35"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

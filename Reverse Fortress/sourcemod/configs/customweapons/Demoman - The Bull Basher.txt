@@ -1,0 +1,61 @@
+"The Bull Basher"
+{
+	"classes"
+	{
+		"demoman"		"1"
+	}
+	"baseclass"		"wearable_demoshield"
+	"baseindex"		"1099"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"bull_basher"
+	"description"	"+15% bullet damage resistance on wearer \nTaking damage while shield charging increases remaining charge time \nAttacking does not cancel shield charging \n \nNo turning control while charging"
+	"attributes"
+	{
+		"dmg taken from bullets reduced"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.85"
+		}
+		"Attack not cancel charge"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"lose demo charge on damage when charging"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"-1"
+		}
+		"dmg taken from fire increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.176"
+		}
+		"dmg taken from blast increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.176"
+		}
+		"mult charge turn control"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"full charge turn control"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"kill refills meter"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

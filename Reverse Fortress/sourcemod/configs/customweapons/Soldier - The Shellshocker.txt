@@ -1,0 +1,36 @@
+"The Shellshocker"
+{
+	"classes"
+	{
+		"soldier"		"1"
+	}
+	"baseclass"		"buff_item"
+	"baseindex"		"354"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"shellshocker"
+	"description"	"Provides an offensive buff that causes nearby team members to do mini-crits, and a defensive buff that protects nearby team \nmembers from crits, incoming sentry damage by 50% and 35% from all other sources.\nGain rage with damage. \n \n-2 health drained per second on wearer"
+	"cw3_attributes"
+	{
+		"buff_item extender"
+		{
+			"plugin"	"orion"
+			"value"		"26 16 0 0 1 1"
+		}
+		"mod soldier buff type"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"health drain"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"-12"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

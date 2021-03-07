@@ -1,0 +1,57 @@
+"The Loch-Unload"
+{
+	"classes"
+	{
+		"demoman"		"0"
+	}
+	"baseclass"		"grenadelauncher"
+	"baseindex"		"308"
+	"nobots"		"0"
+	"quality"		"6"
+	"mag"			"5"
+	"logname"		"loch-unload"
+	"description"	"+33% explosion radius \n+25% clip size \n \n-20% projectile speed \n-20% damage vs buildings \nCannonballs do not explode on direct hit"
+	"attributes"
+	{
+		"Blast radius increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.77"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.67"
+		}
+		"override projectile type"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"17"
+		}
+		"dmg penalty vs buildings"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.67"
+		}
+		"sticky air burst mode"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"projectile speed decreased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.64"
+		}
+		"grenade no spin"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

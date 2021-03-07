@@ -1,0 +1,51 @@
+"The DeGroot Drift"
+{
+	"classes"
+	{
+		"demoman"		"1"
+	}
+	"baseclass"		"wearable_demoshield"
+	"baseindex"		"406"
+	"nobots"		"0"
+	"quality"		"6"
+	"logname"		"degroot_drift"
+	"description"	"+20% bullet damage resistance on wearer \nFull turning control while charging \n \n-33% decrease in charge recharge rate \n-40% decrease in charge impact damage"
+	"attributes"
+	{
+		"dmg taken from bullets reduced"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.8"
+		}
+		"dmg taken from fire increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.25"
+		}
+		"dmg taken from blast increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.25"
+		}
+		"full charge turn control"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"50"
+		}
+		"charge impact damage increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.6"
+		}
+		"charge recharge rate increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.67"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}

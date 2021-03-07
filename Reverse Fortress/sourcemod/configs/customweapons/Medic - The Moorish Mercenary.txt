@@ -1,0 +1,42 @@
+"The Moorish Mercenary"
+{
+	"classes"
+	{
+		"medic"		"0"
+	}
+	"baseclass"		"crossbow"
+	"baseindex"		"305"
+	"nobots"		"0"
+	"quality"		"6"
+	"ammo"			"262"
+	"logname"		"moorish_mercenary"
+	"description"	"Can headshot \n+75% max primary ammo \n \nFires regular arrows"
+	"attributes"
+	{
+		"override projectile type"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"8"
+		}
+		"damage penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.867"
+		}
+		"sniper no headshots"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0"
+		}
+		"maxammo primary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"7"
+		}
+		"weapon_allow_inspect"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+}
